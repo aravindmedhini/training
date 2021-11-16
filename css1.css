@@ -1,0 +1,52 @@
+body {
+	background-image: url("https://www.fg-a.com/wallpapers/when-worlds-collide-1280.jpg%22);
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.first {
+	color: grey;
+	/* background-color: aqua; */
+	font-size: 16px;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-style: italic;
+	text-decoration: line-through;
+	text-decoration-color: red;
+	/* text-decoration-style: dotted; */
+	/* letter-spacing: 5px; */
+}
+#second {
+	color: purple;
+	font-family: "Times New Roman", Times, serif;
+	border: 4px solid black;
+	/* border-width: 2px;
+	border-style: solid;
+	border-color: black; */
+	/* padding: 20px;
+	font-size: 100px;
+	margin: 100px; */
+	border-radius: 40px;
+	/* margin: 10px 50px 100px 150px; */
+	text-align: center;
+}
+h1 {
+	color: green;
+	background-color: red;
+	border-radius: 40px;
+}
+.bg-blue {
+	/* background-color: blue; */
+}
+#first-heading {
+	color: red;
+}
+p {
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+/* font size -> size of font
+font weight -> boldness/ thickness of font */
+/* margin : a b c d top right bottom left */
+/* margin: a b top+bottom left+right */
