@@ -5,9 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
- 
+    <style>
+       .url{
+           border="20px"
+           bgcolor
+       }
+     </style>
 </head>
 <body>
+    <div class="url">
     <h2>check url for resuly</h2>
+    </div>
 </body>
 </html>
+________________________________________________
+Box 
+<style>
+    .box {
+        border: 1px solid black;
+        display: inline-block;
+        width: 300px;
+    }
+    .box2 {
+        /* visibility: hidden; */
+        display: none;
+    }
+    .span1 {
+        display: block;
+    }
+</style>
+</head>
+<body>
+<div class="box">box 1</div>
+<div class="box box2">box 2</div>
+<div class="box">box 3</div>
+<span class="span1">HI</span>
+<span class="span1">I am </span>
+<span class="span1">Prepbytes</span>
+</body>
+___________________________________________________________________________________________________________________
+Flex container
+<style>
+    .flex-container {
+        border: 1px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* align-content: center; */
+        height: 250px;
+    }
+    .flexbox-item {
+        border: 2px solid black;
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+    }
+</style>
+</head>
+<body>
+<div class="flex-container">
+    <div class="flexbox-item">box1</div>
+    <div class="flexbox-item">box2</div>
+    <div class="flexbox-item">box3</div>
+</div>
+</body>
+___________________________________________________________________________
+ Flex container features
+<style>
+    .flex-container {
+        border: 1px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        height: 500px;
+        /* flex-direction: colummn/row; */
+    }
+    .flexbox-item {
+        border: 2px solid black;
+        width: 200px;
+        height: 100px;
+        margin: 5px;
+    }
+    .flexbox-item1 {
+        /* flex-grow: 2; */
+        flex-shrink: 1;
+        order: 2;
+    }
+    .flexbox-item2 {
+        order: 3;
+        /* flex-grow: 1; */
+        flex-shrink: 2;
+    }
+</style>
+</head>
+<body>
+<div class="flex-container">
+    <div class="flexbox-item flexbox-item1">box1</div>
+    <div class="flexbox-item flexbox-item2">box2</div>
+    <div class="flexbox-item flexbox-item2">box3</div>
+</div>
+</body>
+________________________________________________
+Home work
+https://prepbytes-misc-images.s3.ap-south-1.amazonaws.com/assets/1636443711878-CSS-2.mov

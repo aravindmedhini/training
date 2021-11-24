@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css2</title>
+</head>
+<style>
+    body{
+        background-image: url(https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg);
+        background-repeat: repeat-y;
+    }
+    .flex-container {
+  display: flex;
+
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+#box1{
+
+    background-color:black;
+    color: whitesmoke;
+    border: 5px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 20px;
+    width: 350px;
+    height:100px;
+}
+#box2{
+
+background-color:black;
+color: whitesmoke;
+border: 5px;
+border-style: solid;
+border-color: red;
+border-radius: 20px;
+width: 500px;
+height:40px;
+position:"relative; left: 100px; top:200"
+}
+#box3{
+
+background-color:black;
+color: whitesmoke;
+border: 5px;
+border-style: solid;
+border-color: red;
+border-radius: 20px;
+width: 500px;
+height:100px;
+}
+.box_dashed{
+
+background-color:white;
+color: whitesmoke;
+border: 5px;
+border-style: dashed;
+border-color: red;
+border-radius: 0px;
+width: 400px;
+height:700px;
+margin-left: 55%;
+margin-top: -40%;
+}
+#a123{
+    color:red;
+    margin-top: 40px;
+    /*border-bottom: solid black;*/
+    text-align: center;
+    font-size:30px ;
+}
+#a124{
+    font-size:25px;
+    margin-top: 70px;
+}
+.border_dashed{
+    border-bottom: solid black;
+    margin-top: 8%;
+}
+#a125{
+    background-color: rgb(64, 224, 208);
+    color:black;
+    border:5px solid black;
+    width:400px;
+    height:400px;
+    border-radius: 50%;
+    margin-top: 20%;
+    text-align: center;
+    font-size:20px ;
+    
+    
+}
+.d_circle{
+
+    position:relative; top:20%;
+}
+.menu{
+
+    background-color: black;
+    color:white;
+    border: 5px solid red;
+    border-radius: 5%;
+    height:80px;
+    width:500px;
+    text-align: center;
+    margin-top: 20%;
+    position: relative; right:80%;
+    border-style:ridge;
+}
+.a_menu{
+    position:relative; bottom: -30%;
+}
+.m1{
+    background-color: cornflowerblue;
+    border: 3px solid green;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    font-size: x-large;
+    color:rgb(129, 8, 216);
+    text-align: center;
+}
+.container{
+
+    display:flex;
+    margin-left: 40mm;
+    padding : 20px;
+    gap: 10%;
+}
+#a128{
+    
+    height: 400px; 
+    width: 300px;
+}
+.hr{
+    border-top:black solid 1px;
+    display: 100%;
+}
+</style>
+
+<body>
+    <div class="flex-container">
+    <div class="box" id="box1">welcome to dhaba  you will get quality food here</div>
+    <div class="box" id="box2">home menu review contact us </div>
+    <div class="box" id="box3"> email:store@email.com<br>if you find any complaint <br>contact on :-24528244 </div>
+    </div>
+    <div class="parent">
+        
+        <div class="circle" id="a125">
+            <div class="d_circle">
+            <p> <b><u>EXCITING OFFERS</u></b></p><hr>
+            <p> <b><u>** GET YOUR SPECIAL THALI FOR <br> ONLY RS-100 ONLY ON MONDAY**</u></b></p><hr>
+            <p> <b><u>PLZ RATE US OF 5</u></b></p>
+            </div>
+        </div>
+    <div class="box_dashed"><div id="a123"><b>PLEASE REGISTER HERE</b>
+         <div class="border_dashed">     </div>
+        <div id="a124">
+        <form action="action_page">
+            <lablefor="name"> First name:</lablefor><br>
+            <input type="text" placeholder="enter your first name" id="name"><br>
+            <lablefor="name"> Last name:</lablefor><br>
+            <input type="text" placeholder="enter your last name" id="name"><br>
+            <lablefor="name"> Age:</lablefor><br>
+            <input type="number" placeholder="enter your age" id="name"><br>
+            <lablefor="email"> Email:</lablefor><br>
+            <input type="email" placeholder="my email" id="name"><br>
+            <lablefor="date"> Date of birth:</lablefor><br>
+            <input type="date" placeholder="" id="name"><br>
+            <lablefor="button">Are you more than one person ?</lablefor><br>
+            <input type="checkbox" name="button" id="button"><br>
+            <lablefor="button">Do you have cols or cough ?</lablefor><br>
+            <input type="checkbox" name="button" id="button"><br>
+            <lablefor="submit">Click Here</lablefor><br>
+            <input type="submit">
+        </form>
+        <div class="menu"> <div class="a_menu">MENU</div></div>
+        <br><br>        
+    </div>
+    </div>
+    </div> 
+    </div>
+  
+    <br><br><br><br><br><br><br><br><br>
+    <div class="hr"></div>
+    <br><br><br><br><br><br><br><br><br>
+    <div class="container">
+ <div class="m1">
+     <b>
+     <p>Starters</p><hr></b>
+<ul>
+    <li>Panner Tikka</li>
+    <li>Tamato soup</li>
+    <li>Afgan chaap</li>
+    <li>Ritha</li>
+    <li>Tikka</li>
+    <li>Gol gappa</li>
+</ul>
+</div>
+<div class="m1">
+    <b>
+    <p>South indian</p><hr></b>
+<ul>
+   <li>Dosa</li>
+   <li>idly</li>
+   <li>Idly sambar</li>
+   <li>uthappam</li>
+   <li>puri</li>
+   <li>palav</li>
+</ul>
+</div>
+<div class="m1">
+    <b>
+    <p>Indian kitchen</p><hr></b>
+<ul>
+   <li>Panner</li>
+   <li>kadhi panner</li>
+   <li>alu</li>
+   <li>dhal</li>
+   <li>stuff capcicum</li>
+   <li>malai kofta</li>
+</ul>
+</div>
+</div>
+<br><br><br><br><br><br><br><br>
+<div class="container">
+<div class="m1">
+    <b>
+    <p>Rice and salad</p><hr></b>
+<ul>
+   <li>Plain rice</li>
+   <li>zera rice</li>
+   <li>fride rice</li>
+   <li>veg pulav</li>
+   <li>dhal rice</li>
+   <li>Gol gappa</li>
+</ul>
+</div>
+<div class="m1">
+    <b>
+    <p>Tandoori Bread</p><hr></b>
+<ul>
+   <li>butter roti</li>
+   <li>mussi roti</li>
+   <li>charathi</li>
+   <li>Rumali roti</li>
+   <li>masala roti</li>
+   <li>onion roti</li>
+</ul>
+</div>
+<div class="m1" id="a128">
+    <b>
+    <p>Baverages <br>and<br> others</p><hr></b>
+<ul>
+   <li>cool drinks</li>
+   <li>cold cofee</li>
+   <li>gulab jaam</li>
+   <li>double ka meeta</li>
+   <li>ice cream</li>
+   <li>tea</li>
+</ul>
+</div>
+</div>
+</div>
+    
+</body>
+</html>
