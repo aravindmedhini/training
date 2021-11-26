@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projact2_2</title>
+</head>
+<style>
+    h1{
+         margin-left: 32%;
+         font-size: 400%;
+         color: rgb(22, 10, 10);
+    }
+    h1:before{
+        content: "";
+        display: block;
+        width: 180px;
+        height: 2px;
+        background: rgb(128, 122, 122);
+        position: absolute;
+        left: 18%;
+        top: 11%;
+    }
+    h1::after{
+        content: "";
+        display: block;
+        width: 180px;
+        height: 2px;
+        background: rgb(128, 122, 122);
+        position: absolute;
+        left: 58%;
+        top: 11%;
+    }
+    .box1{
+        border: 1px solid rgb(231, 52, 52);
+        width:350px;
+        height: 400px;
+        border-radius: 20px;
+        margin-left: 32%;
+        margin-top: 4%;
+    }
+       .texte{
+             margin-top: 10%;
+             margin-left: 18%;
+             font-size: 40px;
+         }
+         .texta{
+
+            color:red;
+            text-align: center;
+            margin-top: 20%;
+            font-size: 25px;
+         }
+         .line{
+             margin-left: 18%;
+         }
+         .pendt{
+              
+            text-align: center;
+            font-size: 25px;
+         }
+         .circle{
+             width: 40px;
+             height: 40px;
+             border-radius: 50%;
+             background: red;
+             color: white;
+             text-align: center;
+             font-size: 35px;
+             margin-top: 25%;
+             margin-left: 85%;
+
+         }
+         a:link{
+             text-decoration: none;
+             
+         }
+         .circle2{
+             width: 40px;
+             height: 40px;
+             border-radius: 50%;
+             background: red;
+             color: white;
+             text-align: center;
+             font-size: 35px;
+             margin-top: 5%;
+             margin-left: 40%;
+
+         }
+         .back{
+             font-size: 25px;
+             margin-top: -2.3%;
+             margin-left: 43.5%;
+         }
+
+</style>
+<body>
+   <h1><b>Trip to Paris</b></h1>
+  <a href="./project2_1.html" target="_blank">
+      <div class="circle2">←</div>
+  </a>
+  <div class="back"><b>Back</b></div>
+
+
+
+   <div class="box1"> 
+    <div class="texte">Trip to Paris</div><br>
+    <div class="line">
+    <b><hr></b>
+    </div>
+    <p><div class="texta"><span style="text-decoration: line-through;" >Completed Task</span></p>
+    </div>
+    <div class="pendt">
+    <lable for="Pending Task">
+    <input type="checkbox" name="Pending Task" id="checkbox">Pending Task</lable>
+    </div>
+    <a href="./project2_4.html" target="_blank">
+    <div class="circle">+
+    </div>
+    </a>
+</body>
+</html>
