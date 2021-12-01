@@ -11,6 +11,7 @@
         background-color:white;
         border:2px solid black;
         background-size: cover;
+        filter: brightness(90%);
     }
     .text{
         display:flex;
@@ -27,8 +28,9 @@
         filter:contrast(10%);
      }
     .text3{
-        margin-top: 20px;
+        margin-top: 15px;
         margin-left: 320px;
+        font-size: 30px;
      }
     #circle{
             width:40px;
@@ -60,6 +62,7 @@
              height: 300px;
              border-radius: 10%;
              text-align:center;
+             box-shadow: 5px 5px rgb(189, 178, 178);
          }
          .box2{
             background-color: white;
@@ -68,6 +71,7 @@
              height: 300px;
              border-radius: 10%;
              text-align: center;
+             box-shadow: 5px 5px rgb(189, 178, 178);
          }
          .box3{
             background-color: white;
@@ -76,23 +80,28 @@
              height: 300px;
              border-radius: 10%;
              text-align: center;
+             box-shadow: 5px 5px rgb(189, 178, 178);
          }
          .texte{
              margin-top: 15%;
              font-size: 130%;
+        
          }
          .texta{
 
             color:red;
-         }
-         a:link{
-             text-decoration: none;
-             
+         }a:link{
+             text-decoration: none;    
          }
          .line{
              margin-left: 20%;
              font-size: 130%;
          }
+         #a1{
+             color:black;
+         }
+         
+         
 </style>
 <body>
     <div class="text">
@@ -105,9 +114,11 @@
     </a>
    <br>
     <div class="container">
-        <a href="./projact2_2.html" target="_blank">
         <div class="box1">  
-        <div class="texte">Trip to Paris</div><br></a>
+        <a href="./projact2_2.html" target="_blank">
+        <div class="texte" id="a1">Trip to Paris</div>
+        </a>
+        <br>
         <div class="line">
         <b><hr></b>
         </div>
@@ -135,6 +146,5 @@
             <input type="checkbox" name="Pending Task" id="checkbox">Pending Task</lable>    
     </div>
     </div>
-
 </body>
 </html>
