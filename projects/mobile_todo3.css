@@ -1,0 +1,177 @@
+body{
+    background-color:white;
+    border:2px solid black;
+    background-size: cover;
+    
+}
+.blur{
+    filter: blur(3px);
+}
+.text{
+    display:flex;
+    gap:2%;
+    margin-top:200px;
+    margin-left:300px;
+    
+}
+.text1{
+    font-size: xxx-large;
+ }
+.text2{
+    font-size:xxx-large;
+    filter:contrast(10%);
+ }
+.text3{
+    margin-top: 15px;
+    margin-left: 320px;
+    font-size: 30px;
+ }
+#circle{
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        border:1px solid black;
+        text-align: center;
+        background-color: red;
+        color:white;
+        font-size: xx-large;
+        margin-top: -50px;
+        margin-left: 800px;
+
+     }
+     .container{
+         display:flex;
+         gap:1%;
+         margin-top: 5%;
+         margin-right: 30%;
+         margin-bottom: 10%;
+         margin-left: 35px;
+         font-size: 20px;  
+         width: 100%;
+     }
+     
+     
+     .box3{
+        background-color: white;
+         border:1px solid red;
+         width:220px;
+         height: 300px;
+         border-radius: 10%;
+         text-align: center;
+         box-shadow: 5px 5px rgb(189, 178, 178);
+     }
+     .texte{
+         margin-top: 15%;
+         font-size: 130%;
+    
+     }
+     .texta{
+
+        color:red;
+     }a:link{
+         text-decoration: none;    
+     }
+     .line{
+         margin-left: 20%;
+         font-size: 130%;
+     }
+     #a1{
+         color:black;
+     }
+     .bo{
+        width: 400px;
+        height: 200px;
+        background: white;
+        border: solid 1px red;
+        border-radius: 5px;
+        text-align: center;
+        margin-top:-30%;
+        margin-left: 30%;
+        position: fixed;
+        font-size: xx-large;
+        box-shadow: 5px 5px rgb(189, 178, 178);
+    }
+    .sbox{
+       width: 300px;
+        height: 30px;
+        background: white;
+        border: solid 1px red;
+        border-radius: 10px;
+        text-align: center;
+        margin-top:0%;
+        margin-left: 4%;
+        position: fixed;
+
+    }
+    .txt{
+        margin-top: 10px;
+    }
+    .add{
+
+       color:white;
+       background: red;
+       width: 80px;
+       height: 40px;
+       border-radius: 20px;
+       margin-top: 50px;
+       margin-left: 170px;
+       text-align: center;
+    }
+     @media screen and (min-width:360px) and (max-width:640px) {
+        *{
+            margin: 0%;
+            padding: 0%;
+            display: border-box;
+        }
+        body{
+            border: 1px solid black;
+            height: 640px;
+        }
+        .container{
+            display:grid;
+        }
+        .box3{
+            width: 320px;
+            height:50px;
+            padding-top:15px;
+            border-radius: 5px;
+            margin-left: -25px;
+            row-gap: 10px;;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .texte{
+            margin-top: -2px;
+        }
+        .texta{
+            display: none;
+        }
+        .line{
+            display: none;
+        }
+        .text3{
+            display: none;
+        }
+        .text{
+            margin-left: -0%;
+            font-size: -20%;
+            margin-top: 20px;
+        }
+        #circle{
+            padding: 0%;
+            margin-left: 300px;
+            margin-top: -40px;
+            
+        }
+        .bo{
+            width: 320px;
+            height: 200px;
+            margin-left: 10px;
+            margin-top: -300px;
+            
+        }
+        .add{
+            margin-left: 140px;
+        }
+
+     }

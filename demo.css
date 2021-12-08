@@ -1,25 +1,19 @@
-body{
-    background-color: salmon;
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    transition: width 5s, height2s;
+    /* transition-duration: 5s;
+    transition-timing-function:cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition-delay: 3s; */
 }
-@media screen and (min-width:350px) and (max-width:400px){
-    h1{
-        color: springgreen;
-        background-color: tomato;
-    }
-}
-@media screen and (min-width:500px) and (max-width:1020px){
-    h1{
-        color:red;
-        background-color: whitesmoke;
-    }
-}
-.box{
-    background-color: yellowgreen;
-    width: 80px;
-    height:80px;
-    border-radius: 10px;
-    margin: 10px;
-}
-.container{
-    display: inline;
+.box1:hover{
+    font-size: 50px;
+    text-align: center;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    border: 2px solid green;
+    background-image: url(./images_videos/shara\ desert.jpg);
+    transform:rotate(60deg);
 }
